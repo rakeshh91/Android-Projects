@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database>
+  <Record>
+    <Key>SMA</Key>
+    <Value>
+      <name>Software Modeling and Analysis</name>
+      <descr>Computer Engineering Subject</descr>
+      <timeStamp>2015-11-19T17:37:50.7992435-05:00</timeStamp>
+      <children>
+        <child>ADS</child>
+        <child>ACA</child>
+      </children>
+      <payload>
+        <payloads>Consists of projects and OCDs</payloads>
+        <payloads>Course taken by Prof Fawcett</payloads>
+      </payload>
+    </Value>
+  </Record>
+  <Record>
+    <Key>ACA</Key>
+    <Value>
+      <name>Editing ACA</name>
+      <descr>Testing editing the value of ACA</descr>
+      <timeStamp>2015-11-19T17:37:51.1885277-05:00</timeStamp>
+      <children>
+        <child>ADS</child>
+      </children>
+      <payload>
+        <payloads>Successfully edited ACA</payloads>
+        <payloads>Course taken by Prof Tang</payloads>
+      </payload>
+    </Value>
+  </Record>
+  <Record>
+    <Key>ADS</Key>
+    <Value>
+      <name>Advanced Data Structure</name>
+      <descr>Computer Engineering Subject</descr>
+      <timeStamp>2015-11-19T17:37:51.0224033-05:00</timeStamp>
+      <children>
+        <child>ACA</child>
+      </children>
+      <payload>
+        <payloads>Consists of all exams and assignments</payloads>
+        <payloads>Course taken by Prof Andrew Lee</payloads>
+      </payload>
+    </Value>
+  </Record>
+</Database>

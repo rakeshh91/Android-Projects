@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Requirement>
+	<Readers>
+		<nr>2</nr>
+		<rPort>8090</rPort>
+		<NumberofRequests>100</NumberofRequests>
+		<ReaderDisplay>No</ReaderDisplay>
+	</Readers>
+	<Writers>
+		<nw>2</nw>
+		<wPort>8040</wPort>
+		<NumberofRequestsWriters>100</NumberofRequestsWriters>
+		<WriterDisplay>No</WriterDisplay>
+	</Writers>
+	<Request>
+	  <Operation>addition</Operation>
+	   <Key>SMA</Key>
+	   <Value>
+		  <name>Software Modeling and Analysis</name>
+		  <descr>Computer Engineering Subject</descr>
+		  <timeStamp></timeStamp>
+		  <children>
+			<child>ADS</child>
+			<child>ACA</child>
+		  </children>
+		  <payload>
+			<payloads>Consists of projects and OCDs</payloads>
+			<payloads>Course taken by Prof Fawcett</payloads>
+		  </payload>
+		</Value>
+	</Request>
+	<Request>
+	  <Operation>addition</Operation>
+	   <Key>ACA</Key>
+	   <Value>
+		  <name>Advanced Computer Architectur</name>
+		  <descr>Computer Engineering Subject</descr>
+		  <timeStamp></timeStamp>
+		  <children>
+			<child></child>
+		  </children>
+		  <payload>
+			<payloads>Consists of all exams and project</payloads>
+			<payloads>Course taken by Prof Tang</payloads>
+		  </payload>
+		</Value>
+	</Request>
+	<Request>
+	  <Operation>addition</Operation>
+	   <Key>ADS</Key>
+	   <Value>
+		  <name>Advanced Data Structure</name>
+		  <descr>Computer Engineering Subject</descr>
+		  <timeStamp></timeStamp>
+		  <children>
+			<child>ACA</child>
+		  </children>
+		  <payload>
+			<payloads>Consists of all exams and assignments</payloads>
+			<payloads>Course taken by Prof Andrew Lee</payloads>
+		  </payload>
+		</Value>
+	</Request>
+	<Request>
+		<Operation>edit</Operation>
+		<Key>ACA</Key>
+		<Value>
+			<name>Editing ACA</name>
+			<descr>Testing editing the value of ACA</descr>
+			<timeStamp></timeStamp>
+			<children>
+				<child>ADS</child>
+			</children>
+			<payload>
+				<payloads>Successfully edited ACA</payloads>
+				<payloads>Course taken by Prof Tang</payloads>
+			</payload>
+		</Value>
+	</Request>
+	<Request>
+		<Operation>addition</Operation>
+		<Key>OOD</Key>
+		<Value>
+			<name>Object Oriented Design</name>
+			<descr>Computer Engineering Subject</descr>
+			<timeStamp></timeStamp>
+			<children>
+				<child>ADS</child>
+			</children>
+			<payload>
+				<payloads>Consists of mid term exam and projects</payloads>
+				<payloads>Course taken by Prof Fawcett</payloads>
+			</payload>
+		</Value>
+	</Request>
+	<Request>
+		<Operation>delete</Operation>
+		<Key>OOD</Key>
+	</Request>
+	<Request>
+		<Operation>persist database</Operation>
+		<Key> </Key>
+	</Request>
+	<Request>
+	  <Operation>Query value</Operation>
+	   <Key>ACA</Key>
+	</Request> 
+	<Request>
+	  <Operation>Query children</Operation>
+	   <Key>ADS</Key>
+	</Request>
+	<Request>
+		<Operation>Augment database</Operation>
+		<Key> </Key>
+	</Request>
+</Requirement>
