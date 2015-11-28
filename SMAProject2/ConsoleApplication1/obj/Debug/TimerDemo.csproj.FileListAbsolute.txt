@@ -1,8 +1,0 @@
-C:\Users\rakeshh91\Documents\Visual Studio 2015\Projects\Project2Starter\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
-C:\Users\rakeshh91\Documents\Visual Studio 2015\Projects\Project2Starter\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
-C:\Users\rakeshh91\Documents\Visual Studio 2015\Projects\Project2Starter\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
-C:\Users\rakeshh91\Documents\Visual Studio 2015\Projects\Project2Starter\ConsoleApplication1\bin\Debug\UtilityExtensions.exe
-C:\Users\rakeshh91\Documents\Visual Studio 2015\Projects\Project2Starter\ConsoleApplication1\bin\Debug\UtilityExtensions.pdb
-C:\Users\rakeshh91\Documents\Visual Studio 2015\Projects\Project2Starter\ConsoleApplication1\obj\Debug\TimerDemo.csprojResolveAssemblyReference.cache
-C:\Users\rakeshh91\Documents\Visual Studio 2015\Projects\Project2Starter\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
-C:\Users\rakeshh91\Documents\Visual Studio 2015\Projects\Project2Starter\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
