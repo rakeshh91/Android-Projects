@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/logo"
+        android:src="@drawable/currency"
+        android:layout_below="@+id/textLogo"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Currency Converter"
+        android:id="@+id/textLogo"
+        android:textColor="#b4e0c708"
+        android:textSize="38sp"
+        android:textColorHighlight="#451616"
+        android:textStyle="bold|italic"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter the currency in dollars: "
+        android:id="@+id/enterText"
+        android:textSize="15sp"
+        android:textColor="#0b0a0a"
+        android:textStyle="bold"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/userInputTextField"
+        android:textSize="20sp"
+        android:layout_below="@+id/enterText"
+        android:paddingBottom="10dp"
+        android:textStyle="bold"
+        android:layout_toRightOf="@+id/rupeeSymbol"
+        android:layout_toEndOf="@+id/rupeeSymbol" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Convert"
+        android:id="@+id/convertButton"
+        android:textColor="#f1c209"
+        android:background="#676565"
+        android:layout_below="@+id/userInputTextField"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:onClick="convertCurrency" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$"
+        android:id="@+id/symbolView"
+        android:textColor="#100f0f"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_alignBaseline="@+id/userInputTextField"
+        android:layout_alignBottom="@+id/userInputTextField"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The equivalent Indian Rupee value: "
+        android:id="@+id/textResultView"
+        android:textColor="#0b0a0a"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/convertButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/resultTextField"
+        android:textSize="15sp"
+        android:textColor="#0a0a0a"
+        android:paddingBottom="20dp"
+        android:layout_below="@+id/textResultView"
+        android:layout_alignRight="@+id/textLogo"
+        android:layout_alignEnd="@+id/textLogo"
+        android:layout_toRightOf="@+id/rupeeSymbol"
+        android:layout_toEndOf="@+id/rupeeSymbol" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rupeeSymbol"
+        android:text="INR"
+        android:textColor="#121111"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/textResultView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
